@@ -1,0 +1,5 @@
+### GET request to get user activities
+GET http://localhost:8082/api/activities
+X-User-ID: 1
+
+###

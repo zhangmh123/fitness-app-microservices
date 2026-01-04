@@ -1,0 +1,18 @@
+### GET request to example server
+POST localhost:8082/api/activities
+Content-Type: application/json
+X-User-ID: 1
+
+{
+  "type": "RUNNING",
+  "duration": 30,
+  "caloriesBurned": 1500,
+  "additionalMetrics": {
+    "distance" : 10.5,
+    "averageSpeed": 16,
+    "maxHeartRate": 165
+  },
+  "startTime": "2026-01-02T19:25:58"
+}
+
+###
