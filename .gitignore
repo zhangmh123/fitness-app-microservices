@@ -1,0 +1,57 @@
+gitignore
+### --- JetBrains (IntelliJ IDEA) ---
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/resources/archetype-resources/google-services.json
+
+### --- Build Tools (Maven) ---
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+### --- Build Tools (Gradle) ---
+.gradle/
+build/
+
+### --- Environment & Secrets ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.properties
+!src/main/resources/application.properties
+!src/main/resources/application.yml
+# Ignore actual credentials files
+**/config/secrets/
+**/*.jks
+**/*.p12
+**/*.key
+
+### --- Log Files ---
+*.log
+logs/
+
+### --- OS Specific ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+### --- System & Temp ---
+HELP.md
+.temp/
+temp/

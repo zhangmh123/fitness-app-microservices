@@ -1,0 +1,4 @@
+### GET request to get user by id
+GET http://localhost:8081/api/users/56508705-542c-46d3-911a-bf5809677b03
+
+###
