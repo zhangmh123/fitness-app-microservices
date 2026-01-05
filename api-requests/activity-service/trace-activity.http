@@ -1,7 +1,7 @@
 ### GET request to example server
 POST localhost:8082/api/activities
 Content-Type: application/json
-X-User-ID: 1
+X-User-ID: 56508705-542c-46d3-911a-bf5809677b03
 
 {
   "type": "RUNNING",
