@@ -4,13 +4,13 @@ Content-Type: application/json
 X-User-ID: 56508705-542c-46d3-911a-bf5809677b03
 
 {
-  "type": "RUNNING",
-  "duration": 30,
-  "caloriesBurned": 1500,
+  "type": "WALKING",
+  "duration": 60,
+  "caloriesBurned": 1000,
   "additionalMetrics": {
-    "distance" : 10.5,
-    "averageSpeed": 16,
-    "maxHeartRate": 165
+    "distance" : 5.5,
+    "averageSpeed": 10,
+    "maxHeartRate": 160
   },
   "startTime": "2026-01-02T19:25:58"
 }
