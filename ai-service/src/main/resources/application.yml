@@ -12,3 +12,21 @@ spring:
   mongodb:
     uri: mongodb://mongo:password@localhost:27017/fitness-recommendation?authSource=admin
     database: fitness-recommendation
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+rabbitmq:
+  exchange:
+    name: fitness.exchange
+  queue:
+    name: activity.queue
+  routing:
+    key: activity.tracking
+
+gemini:
+  api:
+    url: ${GEMINI_API_URL}
+    key: ${GEMINI_API_KEY}
