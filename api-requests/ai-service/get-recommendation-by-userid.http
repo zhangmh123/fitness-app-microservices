@@ -1,0 +1,19 @@
+### GET recommendation by userid via api-gateway
+GET http://localhost:8080/api/recommendations/user/56508705-542c-46d3-911a-bf5809677b03
+
+
+###
+### GET recommendation by userid
+GET http://localhost:8083/api/recommendations/user/56508705-542c-46d3-911a-bf5809677b03
+
+###
+
+### GET recommendation by activity id
+GET http://localhost:8080/api/recommendations/activity/695e0ee540160779f6feaa6f
+
+###
+
+### GET recommendation by activity id
+GET http://localhost:8083/api/recommendations/activity/695e0ee540160779f6feaa6f
+
+###
